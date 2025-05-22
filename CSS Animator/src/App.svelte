@@ -1,19 +1,28 @@
-<!-- npm run dev -->
 <script>
-  import Header from "./Header.svelte";
+    import Main from "./Main.svelte";
 
-  import Main from "./Main.svelte";
 </script>
 
 <main>
-  <body id="body"
-    ><Header />
-    <div id="root">
-      <Main />
-    </div>
-  </body>
+    <header>
+        <div class="header">
+            <h1>Devloperstar Animations</h1>
+        </div>
+    </header>
+    <Main/>
+    
 </main>
 
-<style> 
- 
+<style>
+    .header {
+        font-size: 12px;
+        height: 4.5vw;
+        width: 100vw;
+        background-color: #16125c;
+        color: white;
+        z-index: 100;
+        line-height: 54px;
+        margin-bottom: 1px;
+        text-align: center;
+    }
 </style>

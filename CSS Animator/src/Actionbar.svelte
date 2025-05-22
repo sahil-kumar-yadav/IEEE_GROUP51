@@ -14,14 +14,12 @@
 
 <style>
   .actionBar {
-    width: 90px;
+    padding-top: 10px;
+    width: 12vh;
     /* background-color: #cfc860; */
-    background-color: midnightblue;
-    flex-direction: column;
-    position: relative;
-    z-index: 1000;
-    height: 92vh;
-    /* height: 100vh; */
+    background-color: rgb(25, 63, 112);
     display: flex;
+    flex-direction: column;
+    /* position: relative; */
   }
 </style>

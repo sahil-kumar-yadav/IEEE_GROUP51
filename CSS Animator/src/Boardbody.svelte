@@ -1,11 +1,5 @@
 <script>
   import Animation from "./Animation.svelte";
-
-  import Boardhead from "./Boardhead.svelte";
-
-  import Action from "./Action.svelte";
-
-  import Actionbar from "./Actionbar.svelte";
 </script>
 
 <div class="boardBody">
@@ -32,7 +26,7 @@
     height: 150px;
     /* width: 200px;
     height: 200px; */
-    background-color: #FFA5A5;
+    background-color: #ffa5a5;
     border-radius: 10px;
   }
 </style>

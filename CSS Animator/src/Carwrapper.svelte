@@ -1,9 +1,5 @@
 <script>
   import Boardhead from "./Boardhead.svelte";
-
-  import Action from "./Action.svelte";
-
-  import Actionbar from "./Actionbar.svelte";
 </script>
 
 <div class="carWrapper" style="transform: translateY(0px) translateZ(0px);">

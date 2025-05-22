@@ -1,9 +1,7 @@
 <script>
   import Zoombtns from "./Zoombtns.svelte";
 
-  import Action from "./Action.svelte";
-
-  import Actionbar from "./Actionbar.svelte";
+ 
 </script>
 
 <div class="boardHead">

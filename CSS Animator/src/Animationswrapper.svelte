@@ -1,11 +1,4 @@
 <script>
-  import Carwrapper from "./Carwrapper.svelte";
-
-  import Boardhead from "./Boardhead.svelte";
-
-  import Action from "./Action.svelte";
-
-  import Actionbar from "./Actionbar.svelte";
 </script>
 
 <div class="animationsWrapper">
@@ -79,15 +72,15 @@
     border: 4px solid black;
   }
   .animationsCloseIcon {
-  width: 14px;
-  height: 14px;
-  fill: "black";
-  position: absolute;
-  top: 7px;
-  right: 20px;
-  z-index: 200;
-  cursor: pointer;
-}
+    width: 14px;
+    height: 14px;
+    fill: "black";
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    z-index: 200;
+    cursor: pointer;
+  }
 
   .swiper-container {
     margin-left: auto;
@@ -128,8 +121,5 @@
     padding: 0 20px;
     position: relative;
     /* margin-right: 10px; */
-    
-    
   }
-  
 </style>

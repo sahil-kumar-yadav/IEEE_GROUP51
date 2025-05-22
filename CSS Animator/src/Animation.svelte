@@ -2,12 +2,6 @@
   import Animationswrapper from "./Animationswrapper.svelte";
 
   import Carwrapper from "./Carwrapper.svelte";
-
-  import Boardhead from "./Boardhead.svelte";
-
-  import Action from "./Action.svelte";
-
-  import Actionbar from "./Actionbar.svelte";
 </script>
 
 <div class="animations" style="opacity: 1;">
